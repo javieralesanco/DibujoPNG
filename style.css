@@ -28,6 +28,10 @@ fieldset {
     border-radius: 0.5em;
 }
 
+fieldset label {
+    color: #FFF;
+}
+
 button {
     width: 10em;
     height: 3em;
