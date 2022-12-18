@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" type="module"></script>
+    <title>Paintn't</title>
+</head>
+
+<body>
+    <header>
+        <h1 hidden>Paintn't</h1>
+    </header>
+    <main id="main">
+        <!--Canvas tiene una sensibilidad y por desgracia no
+            es suficiente para ir rapido-->
+        <canvas id="canvas">En donde te has metido para que no soporte canvas</canvas>
+        <form action="index.html" method="">
+            <fieldset>
+                <label>Color</label>
+                <input type="color" name="color" id="color">
+                <label for="grosor">Grosor</label>
+                <input type="number" name="grosor" id="grosor" value="10">
+                <label for="salto">Slato</label>
+                <select id="salto">
+                    <option value="1">1</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                </select>
+            </fieldset>
+        </form>
+        <a id="descarga"><button>Descargar</button></a>
+    </main>
+</body>
+
+</html>
